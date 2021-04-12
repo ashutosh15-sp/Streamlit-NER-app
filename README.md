@@ -1,12 +1,16 @@
 # Streamlit-NER-app
 
 INSTRUCTIONS:
+
 CODE FILE- part.py
+
 MODULES USED- Specified in requirements.txt
+
 procfile- To run program with streamlit  
 
 
 WORKING:
+
 
 This project works on Named Entity Recognition(NER) which is used to classify named entities in text into pre-defined categories such as Person's name,organisation,date,location and so on.In this project, I have worked with spacy module to peform NER.In this,we load the en_core_web_sm pipeline using spacy.load(), which will return all the components and data needed to process the text.
 Afetr that,I have inserted an input box with streamlit to enter the user data.This data is then searched in the wikipedia using wikipedia.summary(),which has two parameters.
@@ -17,7 +21,9 @@ Then, I have used spacy_streamlit which is used for building interactive spacy p
 If user dosen't enter any text,it will go in else part,where I have used write command of streamlit to display the message on streamlit app.
 
 LIVE URL:
+
 After creating a web app using streamlit,I have deployed my project on heroku platform.
 Here's the link to access the project on heroku:
+
 https://stream-nerapp.herokuapp.com/
 
